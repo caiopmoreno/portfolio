@@ -1,0 +1,24 @@
+*, *::after, *::before{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a, ul, ol{
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover{
+  text-decoration: none;
+  color: inherit;
+}
+
+:root{
+  --white: #FDFCF0;
+  --black: #020202;
+  --bg-component: #FDFCF003;
+  --stroke: #333333;
+}
+

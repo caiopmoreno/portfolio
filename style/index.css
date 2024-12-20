@@ -1,0 +1,8 @@
+@import url(./global.css);
+@import url(./bg.css);
+
+body{
+  font-family: "Outfit", sans-serif;
+  height: 1vh;
+  width: 100%;
+}
