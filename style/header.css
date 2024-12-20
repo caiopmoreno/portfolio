@@ -1,0 +1,45 @@
+header{
+  display: flex;
+  justify-content: space-between;
+}
+
+#header-menu{
+  display: flex;
+  gap: 1.5rem;
+}
+
+/* menu icon */
+#header-menu img:nth-child(1){
+  width: 2rem;
+  height: 2rem;
+  padding: 0.25rem;
+  border-radius: 4px;
+  box-sizing: content-box;
+}
+
+#header-menu img:nth-child(1):hover{
+  background-color: #ffffff15;
+}
+
+/* caiopmoreno logo */
+#header-menu img:nth-child(2){
+  width: 9.25rem;
+  height: 100%;
+}
+
+#header-icons{
+  display: flex;
+  gap: 1rem;
+}
+
+#header-icons img{
+  width: 2rem;
+  height: 2rem;
+  padding: 0.25rem;
+  border-radius: 4px;
+  box-sizing: content-box;
+}
+
+#header-icons img:hover{
+  background-color: #ffffff15;
+}

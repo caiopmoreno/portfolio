@@ -1,8 +1,62 @@
-@import url(./global.css);
 @import url(./bg.css);
+@import url(./aside.css);
+@import url(./content.css);
+@import url(./header.css);
+
+*, *::after, *::before{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a, ul, ol{
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover{
+  text-decoration: none;
+  color: inherit;
+}
+
+:root{
+  --white: #FDFCF0;
+  --black: #020202;
+  --bg-component: #FDFCF008;
+  --stroke: #333333;
+}
 
 body{
   font-family: "Outfit", sans-serif;
   height: 1vh;
   width: 100%;
+  color: var(--white);
+  width: 71rem;
+  margin-inline: auto;
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.75rem;
+}
+
+body img{
+  -webkit-user-drag: none;
+  -webkit-user-drag: none;
+}
+
+main{
+  display: flex;
+  gap: 16px;
+  width: 100%;
+}
+
+#content{
+  width: 66%;
+}
+
+.divisor{
+  border: 1px solid #33333390;
+  width: 80%;
+  margin-inline: auto;
 }
