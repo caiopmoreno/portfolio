@@ -72,6 +72,7 @@ article p{
 #see-project{
   background-color: var(--white);
   color: var(--black);
+  cursor: not-allowed;
 }
 
 .project-button{
@@ -139,4 +140,55 @@ article p{
 
 #links a:hover{
   opacity: 85%;
+}
+
+@media (max-width: 768px){
+  article{
+
+  }
+
+  .elements{
+
+  }
+
+  .buttons{
+    gap: 0.375rem;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .buttons-box{
+    display: flex;
+    flex-direction: column;
+    gap: 0.375rem;
+  }
+
+  .project-button{
+    text-wrap: nowrap;
+    padding: 0.375rem 0.375rem;
+  }
+
+  .buttons a{
+    font-size: 0.75rem;
+    font-weight: 500;
+    width: 100%;
+  }
+
+  .project-button img{
+    width: 0.625rem;
+  }
+
+  .content h2{
+    font-size: 0.875rem;
+  }
+
+  .alert{
+    text-align: center;
+  }
+}
+
+@media (max-width: 380px){
+  .project-button img{
+    display: none;
+  }
 }

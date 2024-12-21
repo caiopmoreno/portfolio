@@ -43,3 +43,8 @@ header{
 #header-icons img:hover{
   background-color: #ffffff15;
 }
+
+/* removing menu, theme and language */
+#header-menu img:nth-child(1), #header-icons{
+  display: none;
+}

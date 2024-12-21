@@ -109,3 +109,18 @@ aside{
 #contact-ctas a:hover{
   opacity: 80%;
 }
+
+@media (max-width: 768px){
+  #contact-ctas a{
+    padding: 0.375rem 0.375rem
+  }
+
+  #contact-ctas img{
+    width: 0.875rem;
+    height: 0.875rem;
+  }
+
+  #contact-ctas{
+    align-items: center;
+  }
+}
