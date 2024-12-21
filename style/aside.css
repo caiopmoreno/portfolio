@@ -127,4 +127,8 @@ aside{
   #contact-ctas{
     align-items: center;
   }
+
+  #infos{
+    gap: 0.875rem;
+  }
 }
