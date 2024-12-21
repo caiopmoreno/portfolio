@@ -37,7 +37,7 @@ body{
   margin-top: 1.5rem;
   display: flex;
   flex-direction: column;
-  gap: 2.75rem;
+  gap: 2rem;
 }
 
 body img{
@@ -47,16 +47,14 @@ body img{
 
 main{
   display: flex;
-  gap: 16px;
+  gap: 1rem;
   width: 100%;
 }
 
 #content{
   width: 66%;
-}
-
-.divisor{
-  border: 1px solid #33333390;
-  width: 80%;
-  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: space-between;
 }
