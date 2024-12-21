@@ -112,6 +112,7 @@ article p{
   flex-direction: column;
   gap: 1.25rem;
   width: auto;
+  justify-content: center;
 }
 
 .link img{
