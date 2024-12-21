@@ -110,6 +110,10 @@ aside{
   opacity: 80%;
 }
 
+#university a:hover{
+  opacity: 90%;
+}
+
 @media (max-width: 768px){
   #contact-ctas a{
     padding: 0.375rem 0.375rem
