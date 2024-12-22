@@ -121,11 +121,13 @@ aside{
 
   #contact-ctas img{
     width: 0.875rem;
-    height: 0.875rem;
+    height: 0.875rem;    
   }
+
 
   #contact-ctas{
     align-items: center;
+    line-height: 0.875rem;
   }
 
   #infos{
